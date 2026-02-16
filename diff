@@ -1,0 +1,7 @@
+
+3. Run notebooks in order:
+- 01_data_cleaning_eda.ipynb
+- 02_forecasting_models.ipynb
+- 03_advanced_analysis.ipynb
+
+4. Optional Dashboard:
