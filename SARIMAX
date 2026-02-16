@@ -1,0 +1,5 @@
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+
+model = SARIMAX(train['temp'], order=(1,1,1), seasonal_order=(1,1,1,12))
+result = model.fit()
+forecast = result.forecast(steps=len(test))
