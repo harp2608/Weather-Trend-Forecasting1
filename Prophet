@@ -1,0 +1,9 @@
+from prophet import Prophet
+
+prophet_df = train.reset_index()[['last_updated','temp']]
+prophet_df.columns = ['ds','y']
+
+model = Prophet()
+model.fit(prophet_df)
+future = model.make_future_dataframe(periods=len(test))
+forecast = model.predict(future)
