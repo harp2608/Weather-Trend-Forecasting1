@@ -1,0 +1,3 @@
+ensemble_pred = (0.3*sarimax_pred + 
+                 0.3*prophet_pred + 
+                 0.4*xgb_pred)
