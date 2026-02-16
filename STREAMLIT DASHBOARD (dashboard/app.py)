@@ -1,0 +1,12 @@
+import streamlit as st
+import pandas as pd
+
+st.title("Global Weather Forecast Dashboard")
+
+df = pd.read_csv("../data/processed/processed_weather.csv")
+
+city = st.selectbox("Select City", df['city'].unique())
+
+filtered = df[df['city'] == city]
+
+st.line_chart(filtered[['temp']])
