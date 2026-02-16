@@ -1,11 +1,11 @@
-# 🌍 Weather Trend Forecasting – PM Accelerator Tech Assessment
+# Weather Trend Forecasting – PM Accelerator Tech Assessment
 
 ## PM Accelerator Mission
 "I’m on a mission to help launch 1,000+ AI products and empower professionals like you to become the next generation of AI product leaders — impacting millions of lives through real-world innovation."
 
 ---
 
-## 📌 Project Objective
+##  Project Objective
 This project analyzes the Global Weather Repository dataset to:
 - Perform data cleaning and exploratory data analysis
 - Forecast future temperature trends
@@ -16,13 +16,13 @@ This project analyzes the Global Weather Repository dataset to:
 
 ---
 
-## 📊 Dataset
+## Dataset
 Source: Kaggle – Global Weather Repository  
 Contains daily weather data for cities worldwide with 40+ features.
 
 ---
 
-## 🔎 Methodology
+##  Methodology
 
 ### 1. Data Cleaning
 - Missing value imputation (forward fill + seasonal median)
@@ -58,6 +58,6 @@ Metrics used:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Install dependencies:
